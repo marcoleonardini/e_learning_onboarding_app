@@ -6,3 +6,4 @@ https://dribbble.com/shots/14943867-E-learning-Platform-Home-Screens?fbclid=IwAR
 
 Source of illustrations : https://storyset.com/
 
+![My Card](https://raw.githubusercontent.com/marcoleonardini/e_learning_onboarding_app/master/videos/demo.gif)
