@@ -12,7 +12,7 @@ class ThirdPage extends StatelessWidget {
     return Column(
       children: [
         Expanded(
-          flex: 6,
+          flex: 5,
           child: Transform.scale(
             scale: 1.25,
             child: Image.asset(
@@ -32,12 +32,12 @@ class ThirdPage extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  'Online study is the',
+                  'Learn Anytime,',
                   style: TextStyle(fontSize: 20.0),
                 ),
                 SizedBox(height: 8.0),
                 Text(
-                  'Best choice for',
+                  'Anywhere. Accelerate',
                   style: TextStyle(
                     fontSize: 22.0,
                     fontWeight: FontWeight.bold,
@@ -45,7 +45,7 @@ class ThirdPage extends StatelessWidget {
                 ),
                 SizedBox(height: 10.0),
                 Text(
-                  'everyone',
+                  'Your future and beyond.',
                   style: TextStyle(
                     fontSize: 22.0,
                     shadows: [
@@ -58,6 +58,15 @@ class ThirdPage extends StatelessWidget {
                     decorationThickness: 5.0,
                   ),
                 ),
+                Spacer(),
+                Text(
+                  'Start learning!',
+                  style: TextStyle(
+                    fontSize: 22.0,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                SizedBox(height: 12.0),
               ],
             ),
           ),

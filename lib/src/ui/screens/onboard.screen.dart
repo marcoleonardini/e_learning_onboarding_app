@@ -1,5 +1,6 @@
 import 'package:e_learning_onboarding_app/src/ui/screens/first_page.screen.dart';
 import 'package:e_learning_onboarding_app/src/ui/screens/second_page.screen.dart';
+import 'package:e_learning_onboarding_app/src/ui/screens/third_page.screen.dart';
 import 'package:e_learning_onboarding_app/src/widgets/customButtomPainter.dart';
 
 import 'package:flutter/cupertino.dart';
@@ -29,7 +30,6 @@ class _OnboardScreenState extends State<OnboardScreen> {
           child: ValueListenableBuilder(
               valueListenable: index,
               builder: (context, int _index, _) {
-                print(_index);
                 switch (_index % 3) {
                   case 0:
                     return AnimatedSwitcher(
@@ -52,7 +52,7 @@ class _OnboardScreenState extends State<OnboardScreen> {
                   case 2:
                     return AnimatedSwitcher(
                         duration: const Duration(milliseconds: 750),
-                        child: FirstPage(
+                        child: ThirdPage(
                           key: UniqueKey(),
                           image: _images[_index % 3],
                         ));
